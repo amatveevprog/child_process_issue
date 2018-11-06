@@ -20,7 +20,7 @@ goodbye!
 ```
 NodeJS version: 10.13.0(tried on earlier versions 8.*.* and 9.*.* ) - still the same problem
 
-Tested on OS:
+works on OS:
 1) [x] Windows 10 (10.0.15063) 
 2) [X] Ubuntu 16.10
 3) [ ] MacOs HighSierra (10.13.6) and MacOs Mojave(10.14)</span>
