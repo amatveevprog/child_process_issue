@@ -8,7 +8,6 @@ function serialize(data) {
 }
 console.log('NODE_ENV:',process.env.NODE_ENV);
 const childProc = spawn('node',[path.resolve(__dirname,'test2.js')],{env:{NODE_ENV:'some_new_env'}});
-//const childProc = spawn('node',[path.resolve(__dirname,'test2.js')]);
 childProc.stdout.on('data', (data) => {
     console.log(serialize(data));
 });
